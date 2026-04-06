@@ -7,7 +7,6 @@ getgenv().Config = {
     keys = 731,                     -- keys override (0 = disabled)
     premium = false,               -- spoof premium
     verified = true,              -- spoof verified badge
-    unlockall = false,              -- unlock all (use with caution and doesnt work with shit executors)
     platform = "DESKTOP",               -- DESKTOP / MOBILE / CONSOLE / VR
     join = "discord.gg/rivalscomp" -- remove this and the script won't work
 }
@@ -21,7 +20,6 @@ local elo = cfg.elo
 local keys = cfg.keys
 local premium = cfg.premium
 local verified = cfg.verified
-local unlockall = cfg.unlockall
 local join = cfg.join
 local platform  = tostring(cfg.platform):upper()
 
